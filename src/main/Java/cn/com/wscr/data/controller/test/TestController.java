@@ -1,4 +1,4 @@
-package cn.com.wscr.data.controller;
+package cn.com.wscr.data.controller.test;
 
 import cn.com.wscr.data.service.TestService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,6 +12,8 @@ public class TestController {
     private TestService testService;
     @RequestMapping("/add")
     public void test(){
-
+        String a="";
+        StringBuffer sb=new StringBuffer();
+        StringBuilder sbd=new StringBuilder();
     }
 }
